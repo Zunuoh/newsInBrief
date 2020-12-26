@@ -8,14 +8,12 @@ const EntertainmentScreen = ()=>{
             <Text style={{fontSize:30, color:"white"}}>ENTERTAINMENT NEWS</Text>
         </View>
 
-        <View style={{flexDirection:"row", borderBottomWidth:1, borderBottomColor:"white", height:150}}>
-            <View style={{paddingTop:20}}>
-                <Image source={require('../../../assets/blouse3.jpeg')} style={{width:100, height:120}}/>
+        <View style={{height:250, width:320, backgroundColor:"white", margin:10, borderRadius:10}}>
+            <Image source={require('../../../assets/blouse3.jpeg')} style={{height:160, width:300, borderRadius:10}}/>
+            <View style={{padding:10}}>
+            <Text>kjdmd</Text>
             </View>
-            <View style={{paddingTop:20, paddingLeft:20}}>
-                <Text style={{color:"white", fontSize:20}}>jfknm</Text>
-            </View>
-
+ 
         </View>
     </View>
     )

@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import HomeScreen from './src/screens/Home/homeScreen';
+import EntertainmentScreen from './src/screens/Entertainment/entetainmentScreen';
 import {NavigationContainer} from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import StackNavigator from './src/navigation/stackNavigator';
